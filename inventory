@@ -1,3 +1,6 @@
+192.187.56.30
+192.187.56.40
+
 [web]
 192.187.56.3
 192.187.56.4
@@ -10,7 +13,7 @@
 192.187.56.14
 192.187.56.15
 
-[roboshop:childern]
+[roboshop:children]
 web
 catalogue
 cart
