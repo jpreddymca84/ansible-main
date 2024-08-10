@@ -1,0 +1,16 @@
+#play book is a list of play's
+
+- name: play-1
+  hosts: localhost
+  become: yes
+  tasks:
+  - name: play-1 and task-1
+    ansible.builtin.debug:
+      msg: Hello play-1 and task-1
+
+- name: play-2
+  hosts: localhosts
+  tasks:
+  - name: play-2 and tak-2
+    ansible.builtin.debug:
+      msg: Hello play-2 and task-2
