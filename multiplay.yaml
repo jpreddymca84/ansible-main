@@ -9,8 +9,7 @@
       msg: Hello play-1 and task-1
 
 - name: play-2
-  hosts: localhosts
-  become: yes
+  hosts: localhost
   tasks:
   - name: play-2 and tak-2
     ansible.builtin.debug:
