@@ -1,0 +1,7 @@
+- name: variables with inventory level
+  hosts: localhost
+  tasks:
+  - name: checking valiables
+    ansible.builtin.debug:
+      msg: "Hi, I'm learning: {{Course}}, Trainer is: {{JP}}, Duration is: {{110HRS}} "
+
