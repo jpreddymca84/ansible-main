@@ -1,5 +1,5 @@
-- name: ping play book 
+- name: ping play book updated
   host: web
   tasks: 
     - name: ping the server
-      ansible.builtin.ping
+      ansible.builtin.ping:
