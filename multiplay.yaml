@@ -10,6 +10,7 @@
 
 - name: play-2
   hosts: localhosts
+  become: yes
   tasks:
   - name: play-2 and tak-2
     ansible.builtin.debug:
