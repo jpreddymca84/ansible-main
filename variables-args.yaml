@@ -2,5 +2,5 @@
   hosts: localhost
   tasks:
   - name: checking variables
-    ansible.builtin.debugs:
+    ansible.builtin.debug:
       msg: "Hello, {{PERSON}}, good {{WISHES}}"
