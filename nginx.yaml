@@ -1,4 +1,4 @@
-- name: insatall and run nginix package
+- name: insatall and run nginx package
   hosts: web
   become: yes
   tasks:
