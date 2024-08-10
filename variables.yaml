@@ -4,9 +4,9 @@
   hosts: localhost
   vars:
     course: "DevOps"
-    trinee: "JP"
+    trainer: "JP"
     duration: "110HRS"
   tasks:
   - name: check variables
     ansible.builtin.debug:
-      msg: "Hello, I'm learning {{course}}, trainee is: {{JP}}, duration is: {{duration}}"
+      msg: "Hello, I'm learning {{course}}, trainee is: {{trainer}}, duration is: {{duration}}"
