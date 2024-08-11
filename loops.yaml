@@ -4,8 +4,8 @@
   tasks:
   - name: install packages
     ansible.builtin.package:
-    name: "{{item.name}}"
-    state: present
+      name: "{{item.name}}"
+      state: present
 
   - name: list of packages
     ansible.builtin.package:
