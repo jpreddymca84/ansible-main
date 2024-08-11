@@ -6,12 +6,9 @@
     ansible.builtin.package:
       name: "{{item}}"
       state: present
-
-  - name: list of packages
-    ansible.builtin.package:
-      name:
-        - git
-        - mysql
-        - postfix
-        - nginx
+  loop:
+  - git
+  - mysql
+  - postfix
+  - nginx
 
