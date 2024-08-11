@@ -16,7 +16,7 @@
       msg: "status is {{user.rc}}"
 
   - name: creating user
-    ansuble.builtin.user:
+    ansible.builtin.user:
       name: roboshop
     when: user.rc != 0
 
